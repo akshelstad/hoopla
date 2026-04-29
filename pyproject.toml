@@ -6,6 +6,8 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "nltk==3.9.1",
+    "numpy>=2.2.6",
+    "sentence-transformers>=5.4.1",
 ]
 
 [dependency-groups]

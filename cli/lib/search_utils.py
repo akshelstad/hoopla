@@ -1,7 +1,7 @@
 import json
 import os
 
-from cli.lib.errors import DataLoadError, MissingDataFileError, InvalidDataFormatError
+from .errors import DataLoadError, MissingDataFileError, InvalidDataFormatError
 
 DEFAULT_SEARCH_LIMIT = 5
 

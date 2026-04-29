@@ -2,6 +2,10 @@ class KeywordSearchError(Exception):
     pass
 
 
+class SemanticSearchError(Exception):
+    pass
+
+
 class DataLoadError(KeywordSearchError):
     pass
 
